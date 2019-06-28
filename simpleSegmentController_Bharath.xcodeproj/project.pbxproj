@@ -16,6 +16,10 @@
 		8EC4E0A722C5603C00B21572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC4E0A522C5603C00B21572 /* LaunchScreen.storyboard */; };
 		8EC4E0B222C5603C00B21572 /* simpleSegmentController_BharathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E0B122C5603C00B21572 /* simpleSegmentController_BharathTests.swift */; };
 		8EC4E0BD22C5603C00B21572 /* simpleSegmentController_BharathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E0BC22C5603C00B21572 /* simpleSegmentController_BharathUITests.swift */; };
+		8EC4E0CB22C560F400B21572 /* secondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E0CA22C560F400B21572 /* secondScreen.swift */; };
+		8EC4E0CD22C5611B00B21572 /* thirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E0CC22C5611B00B21572 /* thirdScreen.swift */; };
+		8EC4E0CF22C5613000B21572 /* fourthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4E0CE22C5613000B21572 /* fourthScreen.swift */; };
+		8EF9D40122C56D650039F625 /* firstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9D40022C56D650039F625 /* firstScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		8EC4E0B822C5603C00B21572 /* simpleSegmentController_BharathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleSegmentController_BharathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC4E0BC22C5603C00B21572 /* simpleSegmentController_BharathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleSegmentController_BharathUITests.swift; sourceTree = "<group>"; };
 		8EC4E0BE22C5603C00B21572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC4E0CA22C560F400B21572 /* secondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondScreen.swift; sourceTree = "<group>"; };
+		8EC4E0CC22C5611B00B21572 /* thirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdScreen.swift; sourceTree = "<group>"; };
+		8EC4E0CE22C5613000B21572 /* fourthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthScreen.swift; sourceTree = "<group>"; };
+		8EF9D40022C56D650039F625 /* firstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				8EC4E09722C5603500B21572 /* AppDelegate.swift */,
 				8EC4E09922C5603500B21572 /* SceneDelegate.swift */,
 				8EC4E09E22C5603500B21572 /* ContentView.swift */,
+				8EF9D40022C56D650039F625 /* firstScreen.swift */,
+				8EC4E0CC22C5611B00B21572 /* thirdScreen.swift */,
+				8EC4E0CE22C5613000B21572 /* fourthScreen.swift */,
+				8EC4E0CA22C560F400B21572 /* secondScreen.swift */,
 				8EC4E0A022C5603C00B21572 /* Assets.xcassets */,
 				8EC4E0A522C5603C00B21572 /* LaunchScreen.storyboard */,
 				8EC4E0A822C5603C00B21572 /* Info.plist */,
@@ -272,8 +284,12 @@
 			files = (
 				8EC4E09822C5603500B21572 /* AppDelegate.swift in Sources */,
 				8EC4E09D22C5603500B21572 /* simpleSegmentController_Bharath.xcdatamodeld in Sources */,
+				8EC4E0CF22C5613000B21572 /* fourthScreen.swift in Sources */,
 				8EC4E09F22C5603500B21572 /* ContentView.swift in Sources */,
+				8EF9D40122C56D650039F625 /* firstScreen.swift in Sources */,
 				8EC4E09A22C5603500B21572 /* SceneDelegate.swift in Sources */,
+				8EC4E0CB22C560F400B21572 /* secondScreen.swift in Sources */,
+				8EC4E0CD22C5611B00B21572 /* thirdScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
